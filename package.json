@@ -2,17 +2,26 @@
   "name": "chidvilash-converter",
   "version": "1.0.0",
   "description": "A small tool to convert INR to USD",
+  "homepage": "https://github.com/Chidvilash21/CHIDVILASH-CONVERTER#readme",
+  "bugs": {
+    "url": "https://github.com/Chidvilash21/CHIDVILASH-CONVERTER/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chidvilash21/CHIDVILASH-CONVERTER.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  },
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
